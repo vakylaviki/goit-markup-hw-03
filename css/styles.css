@@ -98,7 +98,7 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
-/*-----hero------*/
+/*-----hero section 1------*/
 
 .hero {
   background: #2e2f42;
@@ -136,7 +136,7 @@ img {
   min-width: 169px;
 }
 
-/*-----section 1------*/
+/*-----section 2 principles------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -180,10 +180,11 @@ img {
 .principles-item {
   width: calc((100% - 72px) / 4);
 }
-/*-----section 2 team -----*/
+/*-----section 3 team -----*/
 .team {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-team-title {
   font-weight: 700;
@@ -233,10 +234,13 @@ img {
 }
 
 .team-wrap {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-/*-----section 3  portfolio------*/
+/*-----section 4  portfolio------*/
 .portfolio {
   color: #ffffff;
   padding: 120px 0 120px 0;
@@ -295,10 +299,12 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-logo .logo-part {
-  color: #f4f4fd;
+.logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .footer-text {
