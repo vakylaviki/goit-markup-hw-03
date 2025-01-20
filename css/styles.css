@@ -234,9 +234,8 @@ img {
 }
 
 .team-wrap {
+  padding-top: 32px;
   padding-bottom: 32px;
-
-  padding-right: 16px;
 }
 
 /*-----section 4  portfolio------*/
